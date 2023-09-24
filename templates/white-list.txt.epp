@@ -1,0 +1,5 @@
+# Managed by Puppet! Changes made manually may be lost.
+
+<% [$minecraft::white_list_players].flatten.each |$player| { -%>
+<%= $player %>
+<% } -%>
